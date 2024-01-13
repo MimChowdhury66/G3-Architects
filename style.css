@@ -83,6 +83,9 @@ nav li a {
     width: 100%;
 }
 
+
+
+
 /* team section */
 main {
     max-width: 1440px;
@@ -102,13 +105,15 @@ main {
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
 }
-.teams-content{
+
+.teams-content {
     padding-right: 70px;
     padding-left: 70px;
 
 }
+
 .teams-description {
-    width: 537px;
+    width: 437px;
     color: #727272;
     font-size: 16px;
     font-weight: 400;
@@ -126,8 +131,19 @@ main {
         padding: 20px;
     }
 
-    nav {
+    nav,
+    .teams-container {
         flex-direction: column;
+    }
+
+    .teams-img-container {
+        grid-template-columns: 1fr;
+    }
+
+    .teams-content {
+        padding-right: 20px;
+        padding-left: 20px;
+
     }
 }
 
@@ -137,7 +153,14 @@ main {
         padding: 50px;
     }
 
-    nav {
+    nav,
+    .teams-container {
         flex-direction: column;
+    }
+
+    .teams-content {
+        padding-right: 20px;
+        padding-left: 20px;
+
     }
 }
